@@ -24,6 +24,10 @@ ul {
     text-decoration: none;
 }
 
+button{
+    cursor: pointer;
+}
+
 .header__navigation {
     display: flex;
     padding-top: 37px;
@@ -61,6 +65,8 @@ ul {
     flex-shrink: 0;
     border: none;
 }
+
+
 
 .header__button-2:hover {
     color: #FDF5FF;
@@ -140,6 +146,17 @@ span {
     margin-left: -150px;
 }
 
+.search__button:hover{
+    border-radius: 8px;
+    background: #1E252B !important;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
+}
+
 .header__media {
     margin-top: 168px;
 }
@@ -148,9 +165,19 @@ span {
     margin-right: 20px;
 }
 
+.header__media:hover .header__media-img{
+    background-color: #FF6E30;
+    border-radius: 10px;
+}
+
 .header__big-img {
-    position: absolute;
-    top: 5%;
+    /* position: absolute;
+    top: 5%; */
+
+}
+
+.big__image{
+    margin-top: -660px;
 }
 
 .tools {
@@ -245,7 +272,7 @@ span {
     flex-shrink: 0;
 }
 
-.tools__item:hover .tools-button {
+.tools__item:hover .tools__button {
     border-radius: 8px;
     background-color: #FF6E30;
     color: #FFF;
@@ -256,6 +283,35 @@ span {
     line-height: normal;
     transition: 0.5s;
 }
+
+.tools__item:hover .tools__item-header-1{
+    color: rgba(255, 255, 255, 0.90);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+transition: 0.5s;
+}
+
+.tools__item:hover .tools__item-header-2{
+    color: #FFA537;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.tools__item:hover .tools__item-text{
+    color: rgba(255, 255, 255, 0.78);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+
 
 .button__end-tools {
     margin: 0 auto;
@@ -298,6 +354,18 @@ span {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.button__end-tools:hover{
+    border-radius: 8px;
+background: #FF6E30;
+color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+transition: 0.5s;
 }
 
 .tools__item:hover {
@@ -396,6 +464,18 @@ span {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.newcomer__button:hover{
+  
+    border-radius: 8px;
+    background: #1E252B;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
 }
 
 .info__information {
@@ -540,7 +620,20 @@ span {
     font-weight: 600;
     line-height: normal;
     margin-left: -140px;
+    border: none;
 
+}
+
+.contribute__button:hover{
+      
+    border-radius: 8px;
+    background: #1E252B;
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 0.5s;
 }
 
 .footer {
