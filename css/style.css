@@ -26,6 +26,7 @@ ul {
 
 button{
     cursor: pointer;
+    border: none;
 }
 
 .header__navigation {
@@ -165,15 +166,15 @@ span {
     margin-right: 20px;
 }
 
-.header__media:hover .header__media-img{
+.header__media-img:hover{
     background-color: #FF6E30;
-    border-radius: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
 }
 
-
-
 .big__image{
-    margin-top: -660px;
+    margin-top: -560px;
+    margin-left: 800px;
 }
 
 .tools {
