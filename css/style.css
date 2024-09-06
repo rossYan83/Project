@@ -694,3 +694,7 @@ transition: 0.5s;
     line-height: normal;
     width: 160px;
 }
+
+input{
+    padding-left: 15px;
+}
