@@ -698,3 +698,7 @@ transition: 0.5s;
 input{
     padding-left: 15px;
 }
+
+.header__media-img{
+    cursor: pointer;
+}
